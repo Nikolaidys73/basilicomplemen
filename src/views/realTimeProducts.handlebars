@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ecommerce App - Real Time Products</title>
+  <!-- Enlace al archivo styles.css -->
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Ecommerce App - Real Time Products</h1>
+  </header>
+  <div class="container">
+    <section>
+      <h2>Lista de Productos en Tiempo Real</h2>
+      <ul id="products-list">
+        <!-- Aquí se cargarán los productos mediante JavaScript -->
+      </ul>
+      <!-- Formulario para agregar productos al carrito -->
+      <form id="add-to-cart-form">
+        <label for="productId">ID del Producto:</label>
+        <input type="text" id="productId" name="productId" required>
+        <label for="quantity">Cantidad:</label>
+        <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+        <input type="submit" value="Agregar al Carrito">
+      </form>
+    </section>
+  </div>
+  <!-- Enlace al archivo main.js -->
+  <script src="/main.js"></script>
+</body>
+</html>
